@@ -1,11 +1,15 @@
 #include <stdio.h>
 
-void input();
+void input(int* num)
+{
+        printf("Enter a number: ");
+        scanf("%d", num);
+}
 
 
 int main()
 {
-        int nInt1, nInt2, nResult;
+        int num1, num2, res;
         char symbol;
 
         return 0;
