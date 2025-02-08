@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main()
+void inputopp(char* opp)
 {
-        int in1, in2, result;
-        char opp;
-        
-        return 0;
+        printf("Enter an operation: ");
+        scanf("%c", opp);
 }
+
+
